@@ -1,3 +1,64 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
 :root {
-    --accent-color: #
+    --dark-color: #000000;
+    --light-color: #ffffff;
+    --accent-color: #ff287e;
+}
+
+.bullet {
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;    
+}
+
+.selected {
+    background-color: var(--accent-color);
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.intro img {
+    width: 250px;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+nav {
+    width: 100%;
+}
+
+nav * {
+    display: inline-block;
+    color: var(--dark-color);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav .logo {
+    color: var(--accent-color);
 }
