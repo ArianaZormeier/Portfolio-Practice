@@ -13,12 +13,35 @@ html {
     --accent-color: #ff287e;
 }
 
+* {
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.current-page {
+/*     text-orientation: sideways; */    
+    display: flex;
+    flex-direction: row;
+}
+
+.current-page h6 {
+    margin: 16px;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    -webkit-transform: rotate(180deg);
+}
+
 .bullet {
     height: 10px;
     width: 10px;
     background-color: grey;
     border-radius: 50%;
-    display: inline-block;    
+}
+
+.bullet-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .selected {
@@ -38,6 +61,21 @@ html {
     height: auto;
 }
 
+.stacked {
+    display: flex;
+    flex-direction: column;
+}
+
+.sentence {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.sentence h2 {
+    margin-bottom: 0;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -47,12 +85,20 @@ html {
 }
 
 nav {
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav * {
-    display: inline-block;
     color: var(--dark-color);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 
 nav a {
@@ -61,4 +107,8 @@ nav a {
 
 nav .logo {
     color: var(--accent-color);
+}
+
+.intro {
+    display: flex;
 }
