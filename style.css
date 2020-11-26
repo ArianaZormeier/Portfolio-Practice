@@ -22,6 +22,8 @@ html {
 /*     text-orientation: sideways; */    
     display: flex;
     flex-direction: row;
+    align-content: center;
+    height: 30%;
 }
 
 .current-page h6 {
@@ -67,8 +69,21 @@ html {
 .cv-dot{}
 
 .intro img {
-    width: 30%;
+    width: 20%;
     height: auto;
+    
+    /* flip horizontally */
+    transform: rotateY(180deg);
+}
+
+#about-me-page img {
+    width: 20%;
+    height: auto;
+}
+
+.about-row {
+    display: flex;
+    flex-direction: row;
 }
 
 .stacked {
@@ -85,7 +100,7 @@ html {
 
 .accent-line {
     border: 0;
-    height: 2px;
+    height: 5px;
     background: var(--accent-color);
     margin-left: 0;
 }
@@ -129,4 +144,6 @@ nav .logo {
 
 .intro {
     display: flex;
+    flex-direction: row;
+    align-content: center;
 }
