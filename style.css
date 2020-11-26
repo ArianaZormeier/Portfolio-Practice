@@ -23,6 +23,17 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 header {
     margin: 0;
     border: 0;
@@ -88,7 +99,7 @@ header {
 .intro img {
     width: auto;
     height: 60vh;
-    margin: 20px;
+    margin: 40px;
     
     /* flip horizontally */
     transform: rotateY(180deg);
@@ -97,11 +108,13 @@ header {
 #about-me-page img {
     width: auto;
     height: 60vh;
+    margin: 40px;
 }
 
 .about-row {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .stacked {
@@ -183,8 +196,26 @@ nav .logo {
 
 #about-me-page {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #work-page {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
