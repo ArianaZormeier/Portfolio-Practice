@@ -48,13 +48,23 @@ html {
     background-color: var(--accent-color);
 }
 
-.dot {
+.period {
     height: 25px;
     width: 25px;
     background-color: var(--accent-color);
     border-radius: 50%;
     display: inline-block;
 }
+
+.intro-dot {
+    background-color: var(--accent-color);
+}
+
+.about-dot {}
+
+.work-dot {}
+
+.cv-dot{}
 
 .intro img {
     width: 250px;
