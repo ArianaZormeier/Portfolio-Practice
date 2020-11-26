@@ -139,6 +139,11 @@ header {
 
 .sentence h2 {
     margin-bottom: 0;
+    margin-right: 5px;
+}
+
+.sentence span {
+    margin-bottom: 2px;
 }
 
 .bold {
