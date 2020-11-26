@@ -67,19 +67,27 @@ html {
 .cv-dot{}
 
 .intro img {
-    width: 250px;
+    width: 30%;
     height: auto;
 }
 
 .stacked {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .sentence {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+}
+
+.accent-line {
+    border: 0;
+    height: 2px;
+    background: var(--accent-color);
+    margin-left: 0;
 }
 
 .sentence h2 {
