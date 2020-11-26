@@ -39,9 +39,14 @@ h4 {
     margin-bottom: 20px;
 }
 
+h6 {
+    font-size: 14px;
+}
+
 p {
     font-size: 20px;
 }
+
 
 header {
     margin: 0;
@@ -59,9 +64,8 @@ header {
 }
 
 .current-page h6 {
-    margin-top: 20px;
-    padding: 0;
-    border: 0;
+    margin-left: 20px;
+    margin-right: 10px;
     text-align: center;
     writing-mode: vertical-rl;
     text-orientation: sideways;
@@ -193,6 +197,7 @@ nav a {
 
 nav .logo {
     color: var(--accent-color);
+    font-weight: bolder;
 }
 
 .intro {
