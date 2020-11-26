@@ -27,7 +27,7 @@ html {
 }
 
 .current-page h6 {
-    margin: 16px;
+    margin: 20px;
     writing-mode: vertical-rl;
     text-orientation: sideways;
     -webkit-transform: rotate(180deg);
@@ -118,6 +118,7 @@ html {
 }
 
 nav {
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,6 +137,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    margin-left: 20px;
 }
 
 nav .logo {
@@ -146,4 +148,16 @@ nav .logo {
     display: flex;
     flex-direction: row;
     align-content: center;
+}
+
+#splash-page {
+    height: 100vh;
+}
+
+#about-me-page {
+    height: 100vh;
+}
+
+#work-page {
+    height: 100vh;
 }
